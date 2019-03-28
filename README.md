@@ -1,17 +1,23 @@
 # rest-api
 
-This project was built with Turbo 360. 
+REST API with Node and MongoDB
 
 ## Instructions
-After cloning into repo, cd to project root directory and create a .env file. This file requires a TURBO_APP_ID and SESSION_SECRET keys:
+Install Node.js, MongoDB and npm.
+
+Create a new project:
 
 ```
-TURBO_ENV=dev
-SESSION_SECRET=YOUR_SESSION_SECRET
-TURBO_APP_ID=123abc
+turbo new rest-api
 ```
 
-Then run npm install from the root directory:
+Then cd to the folder:
+
+```
+cd rest-api
+```
+
+To run npm install from the root directory:
 
 ```
 $ npm install
@@ -29,11 +35,7 @@ Then run devserver from project root directory:
 $ turbo devserver
 ```
 
-To build for production, run build:
-
-```
-$ npm run build
-```
+Turbo dev server running on LocalHost: http://localhost:3000
 
 Note: For POST command on Windows Command Prompt type:
 ```
