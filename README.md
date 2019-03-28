@@ -35,7 +35,7 @@ Then run devserver from project root directory:
 $ turbo devserver
 ```
 
-Turbo dev server running on LocalHost: http://localhost:3000
+Turbo dev server sunning on LocalHost: http://localhost:3000
 
 Note: For POST command on Windows Command Prompt type:
 ```
